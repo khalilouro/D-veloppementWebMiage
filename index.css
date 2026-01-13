@@ -1,0 +1,171 @@
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+h4{
+    color: green;
+}
+
+span{
+    color: yellow;
+}
+
+.premierspan{
+    font-size: 3rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.premierli{
+    color : red;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight : bold;
+    text-align: start;
+}
+
+.deuxiemeli{
+    color : blue;
+    font-size: 1.5rem;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    font-weight : lighter;
+    text-align: center;
+}
+
+.troisiemeli{
+    color : green;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight : normal;
+    text-align: end;
+}
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.div3{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.divmaman{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.div21{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.div22{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.div23{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 50%;
+    align-self: end
+}
+
+.divmaman2{
+    display: flex;
+    flex-direction: column;
+}
+
+.divspacebetween div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divspacebetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divcenter div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divcenter{
+    display: flex;
+    justify-content: center;
+}
+
+.divspacearound div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divspacearound{
+    display: flex;
+    justify-content: space-around;
+}
+
+.divspaceenvenly div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divspaceenvenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
