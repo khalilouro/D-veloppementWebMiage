@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A0B2E;
+}
+
+.droite {
+    display: flex;
+    gap: 30px;
+    padding: 0 50px;
+    color: white;
+}
+
+.intro {
+    display: flex;
+    color: white;
+    /*position: absolute;
+    top: 14%;
+    left: 52%;*/
+}
+
+span {
+    color: purple;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #11071F;
+    color: white;
+}
+
+.section1 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.photo {
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    box-shadow: #320F85 0 0 20px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #763CAC, #320F85);
+    position: absolute;
+    left: 25%;
+    top: 5rem;
+}
+
+
+.Designer {
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    color: white;
+    text-decoration: underline;
+}
+
+.Description {
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    width: 400px;
+    color: white;
+    font-size: 3.5rem;
+}
+
+.last {
+    position: absolute;
+    top: 47%;
+    left: 52%;
+    color: white;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    margin : 25%;
+    font-size: 1.5rem;
+}
+
+.section2 span {
+    color: blue;
+}
